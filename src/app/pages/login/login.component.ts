@@ -61,17 +61,17 @@ export class LoginComponent implements OnInit {
       localStorage.setItem("role", "admin");
 
     }
-    /*
+    
     if (type == "encadrant"){
-      console.log("encadants");
+     
 
       this.restApiService.getEncadrants().subscribe((res: any[])=>{
         this.ItemsArray= res;
-        console.log(this.ItemsArray);
+     
       }) 
       localStorage.setItem("role", "encadrant");
     }
-*/
+
     if (type == "stagiaire"){
 
       this.restApiService.getstagiaires().subscribe((res: any[])=>{

@@ -21,7 +21,7 @@ import{ UpdatestagiaireComponent} from'./views/updatestagiaire/updatestagiaire.c
 
 
 import{ AdmindetailsComponent} from'./views/admindetails/admindetails.component';
-
+import{  AcceuilencadrantComponent} from './views/acceuilencadrant/acceuilencadrant.component'
 
 import{ StagiairedetailsComponent} from'./views/stagiairedetails/stagiairedetails.component';
 import{EncadrantComponent} from'./views/encadrant/encadrant.component';
@@ -93,6 +93,10 @@ const routes: Routes = [
             {
                 path: 'encadrants',
                 component:EncadrantComponent
+            },
+            {
+                path: 'acceuilEncadrant',
+                component:  AcceuilencadrantComponent
             },
              {
                 path: 'updatencadrant/:id',

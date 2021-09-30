@@ -48,6 +48,7 @@ import { AddinformationComponent } from './views/addinformation/addinformation.c
 
 import { WavesModule, TableModule } from 'ng-uikit-pro-standard';
 import { AcceuilstagiaireComponent } from './views/acceuilstagiaire/acceuilstagiaire.component';
+import { AcceuilencadrantComponent } from './views/acceuilencadrant/acceuilencadrant.component';
 
 
 
@@ -91,7 +92,8 @@ import { AcceuilstagiaireComponent } from './views/acceuilstagiaire/acceuilstagi
         EncadrantdetailsComponent,
         InformationsComponent,
         AddinformationComponent,
-        AcceuilstagiaireComponent
+        AcceuilstagiaireComponent,
+        AcceuilencadrantComponent
     ],
     imports: [
         BrowserModule,
